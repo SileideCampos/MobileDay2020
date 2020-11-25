@@ -1,0 +1,14 @@
+program Alerta;
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  principal in 'C:\Projetos\Flavia Vitoria\MStick_delphi\principal.pas' {Form1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.
